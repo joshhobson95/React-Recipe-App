@@ -87,7 +87,13 @@ const ingredientsDisplay = ingredients.map((ing) => {
         <button type="button" onClick={addIngredient}>Add Another</button>
              <ul>{ingredientsDisplay}</ul>
   
-        <textarea placeholder="What are the Instructions?"></textarea>
+        <textarea 
+        placeholder="What are the Instructions?"
+        rows={5}
+        value={values.instructions}
+        onChange={handleChange}
+        name="instructions"
+         />
       
 
       <button type="submit" >Save</button>
