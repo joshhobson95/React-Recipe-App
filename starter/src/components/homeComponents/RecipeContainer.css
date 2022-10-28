@@ -1,0 +1,27 @@
+.searchcontainer{
+    display: flex;
+  
+    justify-content: center;
+    justify-items: center;
+}
+
+
+.search{
+    margin-top: 30px;
+    background-color: #da773551;
+    width: 350px;
+    border-radius: 70px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+
+}
+.search input{
+    height: 
+    40px;
+    background-color: transparent;
+    border: 0;
+}
+input:focus {
+    outline: none;
+  }
