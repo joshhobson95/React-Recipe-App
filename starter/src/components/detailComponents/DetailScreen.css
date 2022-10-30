@@ -7,36 +7,44 @@
   justify-content: center;
   gap: 30px;
   color: white;
-  
   margin-bottom: 30px;
-
-
 }
 
 
-
   .recipeinfo{
+    height: 35vh;
+    width: 60%;
+    align-items: center;
 display: flex;
 justify-content: space-around;
 flex-direction: row;
 gap: 15px ;
+
+
   }
 .recipeinfo h2{
-  font-weight: 1000;
-  font-size: 16pt;
+  font-weight: 700;
+  font-size: 20pt;
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 
+}
+.parentbox{
+  display: flex;
+  justify-content: center;
 }
 
 .box1{
-  max-width: 550px;
+ 
+  max-width: 30vw;
   box-shadow: 0px 3px 10px rgba(2, 3, 15, 0.6);
   box-sizing: border-box;
   padding: 10px;
   border-radius: 4px;
 }
 .box2{
-max-width: 700px;
+
+max-width: 30vw;
 box-shadow: 0px 3px 10px rgba(2, 3, 15, 0.6);
 box-sizing: border-box;
 padding: 10px;

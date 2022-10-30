@@ -37,7 +37,9 @@ function RecipeContainer({recipes}) {
     </div>
 
 <div className='recipeDisplay'>
+
 {recipeDisplay ? recipeDisplay : <h2>No Recipes :(</h2>}
+
 </div>
 
 </section>

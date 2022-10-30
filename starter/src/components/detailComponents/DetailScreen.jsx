@@ -24,6 +24,7 @@ const DetailScreen = () => {
   return (
     <section>
      <DetailImg image={recipe.image_url} title={recipe.recipe_name}  />
+     <div className="parentbox">
      <div className="recipeinfo">
      <div className="box1">
      <h2>Recipe</h2>
@@ -41,6 +42,7 @@ const DetailScreen = () => {
           <p style={{ whiteSpace: "pre-wrap" }}>
             {recipe.instructions && JSON.parse(recipe.instructions)}
           </p>
+        </div>
         </div>
         </div>
     

@@ -5,11 +5,10 @@ function DetailImg({image, title}) {
     <div
     className='banner'
     style={{
-      backgroundSize: "cover",
-      backgroundPosition: "center",
-   
+      backgroundPosition: 'center',
+      backgroundRepeat: 'no-repeat',
       background: `linear-gradient(190deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(${image})`
-      
+    
 
     }}>
     <div>

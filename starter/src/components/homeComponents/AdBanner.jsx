@@ -15,6 +15,8 @@ const AdBanner = () => {
           rgba(0, 0, 0, 0.8)),
           url(${salmon})`,
         backgroundSize: "cover", 
+        backgroundPosition: 'center',
+      backgroundRepeat: 'no-repeat',
     
        
       }}
